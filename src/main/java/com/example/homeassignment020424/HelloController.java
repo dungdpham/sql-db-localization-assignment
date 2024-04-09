@@ -68,7 +68,7 @@ public class HelloController {
                 case "English":
                     table = "employee_en";
                     break;
-                case "Persian":
+                case "Farsi":
                     table = "employee_fa";
                     break;
                 case "Japanese":
