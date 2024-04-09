@@ -22,7 +22,7 @@
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="English"/>
-                <String fx:value="Persian"/>
+                <String fx:value="Farsi"/>
                 <String fx:value="Japanese"/>
             </FXCollections>
         </items>

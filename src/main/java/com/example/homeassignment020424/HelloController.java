@@ -101,7 +101,7 @@ public class HelloController {
             case "English":
                 bundle = ResourceBundle.getBundle("texts", new Locale("en", "UK"));
                 break;
-            case "Persian":
+            case "Farsi":
                 bundle = ResourceBundle.getBundle("texts", new Locale("fa", "IR"));
                 break;
             case "Japanese":
@@ -116,5 +116,4 @@ public class HelloController {
         saveBtn.setText(bundle.getString("button.save"));
         message.setText("");
     }
-
 }
